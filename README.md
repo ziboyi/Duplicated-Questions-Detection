@@ -8,14 +8,14 @@ The networks use TensorFlow r0.12: ./models/siamese_cnn.py and ./models/siamese_
 
 The models trained by neural networks are stored in ./runs
 
-run create_dataset.py to preprocess dataset and split it to training and testing set.
+Run create_dataset.py to preprocess dataset and split it to training and testing set.
 
 The word vector is downloaded from: https://nlp.stanford.edu/projects/glove/    
 
-run train.sh to train LSTM model.
+Run train.sh to train LSTM model.
 
 In line 122 of train.py，modify SiameseLSTM to SiameseCNN and run train.sh again if you want to train CNN model.
 
-run eval.sh to evaluate the models' performance. Note that the "RUN" parameter in this file indicates which model will be evaluateed.
+Run eval.sh to evaluate the models' performance. Note that the "RUN" parameter in this file indicates which model will be evaluateed.
 
-tensorboard.sh will shows the loss function during training.
+Running tensorboard.sh will shows the loss function during training.
