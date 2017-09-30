@@ -1,6 +1,6 @@
 # Duplicated Questions Detection
 
-For more information, please see this [post](https://ziboyi.github.io/Project-Duplicated-Questions-Detection/)
+For more information, please see [my post](https://ziboyi.github.io/Project-Duplicated-Questions-Detection/)
 
 The dataset is ./data/quora_duplicate_questions.tsv, you may download it from https://data.quora.com/First-Quora-Dataset-Release-Question-Pairs
 
